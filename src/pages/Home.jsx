@@ -156,9 +156,9 @@ const titleVariants = {
   const aboutImgY = useTransform(scrollY, [600, 1000], [0, window.innerWidth < 768 ? -15 : -30]);
 
   const stats = [
-    { value: '10K+', label: 'Users Empowered' },
-    { value: '500+', label: 'Projects Launched' },
-    { value: '99.9%', label: 'Uptime Guaranteed' },
+    // { value: '10K+', label: 'Users Empowered' },
+    // { value: '500+', label: 'Projects Launched' },
+    // { value: '99.9%', label: 'Uptime Guaranteed' },
   ];
 
   const headingText = 'Innovate Boldly. Scale Swiftly.'.split('');
@@ -365,7 +365,7 @@ const advantages = [
         `}</style>
       </section>
 
-      <section id='about'
+      <section 
         className="min-h-screen bg-gradient-to-b from-blue-900 to-indigo-950 text-white font-poppins px-4 sm:px-6 py-12 sm:py-16 relative overflow-hidden"
         aria-label="About Us Section"
       >

@@ -55,7 +55,7 @@ const Footer = () => {
             Quick Links
           </motion.h3>
           <ul className="space-y-2">
-            {['Home', 'About', 'Services', 'Contact'].map((link, i) => (
+            {['Home','About','Our Services','Contact'].map((link, i) => (
               <motion.li key={i} variants={itemVariants}>
                 <motion.a
                   href={`#${link.toLowerCase()}`}

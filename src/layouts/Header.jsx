@@ -7,10 +7,10 @@ const Header = () => {
 
   const navLinks = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '#about' },
-    { name: 'Our Services', href: '#services' },
+    { name: 'About', href: '/about' },
+    { name: 'Our Services', href: '/services' },
     // { name: 'FAQ', href: '#faq' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Contact', href: '/contact' },
   ];
 
   const linkVariants = {
